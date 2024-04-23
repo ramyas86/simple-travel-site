@@ -9,26 +9,52 @@
     <meta name="description" content="Shivamogga">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" href="styles.css"> -->
-<style>
+    <style>
+        #cover>img {
+            float: left;
+            border: 2px solid black;
+            width: 40%;
+            margin: 2%;
+        }
 
-#cover > img {
-  float:left;
-  border: 2px solid black;
-  width: 30%;
-  margin: 1.66%;
-}
-
-</style>
+        #mainheader {
+            background-color: #a593c2;
+        }
+        nav>ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav>ul>li {
+            float: left;
+        }
+        nav>ul>li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-    </nav>
+    <header id="mainheader">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a>Images</a></li>
+            </ul>
+        </nav>
+    </header>
     <div id="cover">
-            <img src="./images/JOG-FALLS.jpg" alt="Jog Falls">
-            <img src="./images/sakrebailuelephantcamp_20191024122200.jpg" alt="Sakre Bailu Elephant Camp">
-            <img src="./images/LionSafari.jpeg" alt="Lion Safari">
-            <img src="./images/Bhadra_Dam.jpeg" alt="Bhadra Dam" >
+        <img src="./images/JOG-FALLS.jpg" alt="Jog Falls">
+        <img src="./images/sakrebailuelephantcamp_20191024122200.jpg" alt="Sakre Bailu Elephant Camp">
+        <img src="./images/LionSafari.jpeg" alt="Lion Safari">
+        <img src="./images/Bhadra_Dam.jpeg" alt="Bhadra Dam">
     </div>
 </body>
+
 </html>
