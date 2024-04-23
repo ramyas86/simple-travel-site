@@ -1,4 +1,3 @@
-
 #mainheader {
   background-color: #a593c2;
 }
@@ -28,23 +27,28 @@ nav>ul>li a {
   height: 800px;
   margin: 0 auto;
 }
-  #cover>img {
-    float: left;
-    border: 2px solid black;
-    width: 40%;
-    margin: 2%;
+
+#cover>img {
+  float: left;
+  border: 2px solid black;
+  width: 40%;
+  margin: 2%;
 }
+
 .fontselector {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
+
 .tableborder {
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid black;
 }
-th, td {
-  margin-left:auto;
-  margin-right:auto;
+
+th,
+td {
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid black;
 }
