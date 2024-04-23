@@ -34,7 +34,7 @@ nav>ul>li a {
     width: 40%;
     margin: 2%;
 }
-#fontselector {
+.fontselector {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
